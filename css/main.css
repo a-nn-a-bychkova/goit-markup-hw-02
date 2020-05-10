@@ -15,52 +15,55 @@
 .hero .upper {
   font-style: normal;
   font-weight: 900;
-  font-size: 44;
+  font-size: 44px;
   line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
   color: var(--primary-white-color);
-}
-.hero .button {
-  font-weight: 700;
-  font-size: 16;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
 
-.advantages .style {
+.hero button {
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+}
+
+.advantages .advatage-title {
   font-style: normal;
   font-weight: 700;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
 
-.advantages .text {
-  font-weight: 400;
-  font-size: 14;
+.list .text {
+  font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.03em;
 }
 
-.what-we-do .applications {
-  background-color: rgba(47, 48, 58, 0.8);
+.applications .applications-type {
   color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
-.our-team .member,
-.our-team .profession {
+.members .members-name,
+.members .members-profession {
+  font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
-.our-team .member {
+.members .members-name {
   font-weight: 500;
 }
-.our-team .profession {
-  font-weight: 400;
-  font-size: 16;
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }

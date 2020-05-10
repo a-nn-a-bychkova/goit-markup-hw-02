@@ -9,12 +9,10 @@
 }
 
 /*фильтр*/
-.filter .button {
+.filter button {
   font-weight: 500;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--button-portfolio-background);
 }
@@ -26,24 +24,21 @@
 }
 
 /*наши работы*/
-.examples name {
+.examples .examples-name {
   font-weight: 700;
-  font-size: 18;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.examples sort {
-  font-weight: 400;
-  font-size: 16;
+.examples .examples-sort {
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-.examples .description {
-  color: var(--primary-white-color);
-  font-weight: 400;
-  font-size: 18;
+.examples .examples-description {
+  font-size: 18px;
   line-height: 1.56;
-  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
   background-color: var(--accent-color-pictures);
 }
